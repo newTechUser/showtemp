@@ -1,0 +1,197 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .one{
+        background-image: none !important;
+        background-color: #F3F3F3;
+        // width: 100vw;
+        // background-size: cover;
+        // background-position: center;
+        nav{
+            margin: 0!important;
+            padding: 0!important;
+            display: inline !important;
+            
+                // display: flex;
+                .navHead{
+                    font-size: 40px!important;
+                    padding-top: 0!important;
+                    padding-right: 100px;
+                    display: inline !important;
+                    .navheadtext{
+                        display: inline !important;
+                    }
+                }
+                    .navMain{
+                        display: none!important;
+                    }
+                    .navEnd{
+                       font-size: 30px!important;
+                       padding-top: 0!important;
+                       display: flex;
+                       .respnavEndicon{
+                        display: flex!important;
+                        font-size: 40px!important;
+                        svg{
+                            padding-right: 40px;
+                        }
+                       }
+                    }
+            
+            .respnavMain{
+                display: block!important;
+                .respnavMainelement{
+                    display: flex!important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                    flex-direction: column !important;
+                    .respnavtext{
+                        font-size: 50px;
+                        padding-top: 50px;
+                    }
+                }
+            }
+        }
+        header{
+            background-color: #F3F3F3 !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0!important;
+            padding-top: 200px!important;
+            .headerText{
+                padding: 0 !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .headertext{
+                    font-size: 50px !important;
+                }
+                .additiontext{
+                    font-size: 30px!important;
+                    padding: 0px 130px 0px 130px;
+                }
+                .headbtn{
+                    display: flex;
+                    flex-direction: column;
+                    .btn1space{
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .headcontainer{
+            padding-top: 200px !important;
+            background-color: #F3F3F3 !important;
+            .headcontaineritem{
+                flex-direction: column;
+                .headcard{
+                    width: cover;
+                    padding-right: 20px;
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+    .two{
+        .twomain{
+            padding-top: 1800px !important;
+            .twocontainer{
+                .twocontaineritem{
+                    flex-wrap: wrap !important;
+                    display: flex !important;
+                    flex-direction: column !important ;
+                    align-items: center !important;
+                    justify-content: center !important;
+                    .card{
+                        width: 100vw;
+                        padding-right: 100px;
+                        padding-left: 100px;
+                        padding-bottom: 50px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .three{
+        .threecontainer{
+            .threecontaineritem{
+                display: flex;
+                flex-direction: column !important;
+                .threeimageside{
+                    padding-left: 50px;
+                    padding-right: 50px !important;
+                    img{
+                        width: 80vw;
+                    }
+                }
+                .threetextside{
+                    margin: 0;
+                    padding-left: 100px;
+                    .threetextwithouticon{
+                        .threetextup{
+                            .threetextside{
+                                padding: 0 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+    section.aftericons{
+        .mainicons{
+            .iconitems{
+                flex-direction: column !important;
+                .mainiconsIcon{
+                    padding-bottom: 40px;
+                }
+            }
+        }
+        .mainiconsend{
+            background-color: white !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            .position{
+                margin: 0 !important;
+                padding: 0 !important;
+                position: static;
+                .subcenter{
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    .subscribe{
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        width: 100vw;
+                        .subscribeitem{
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            .subscribetextside{
+                                flex-direction: column !important;
+                                .subscribetext{
+                                    font-size: 20px;
+                                    
+                                }
+                                .subscribebtnside{
+                                    display: block !important;
+                                }
+                            }
+                            .subscribebtnside{
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px){
+    body{
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+.mainiconsend{
+    width: 100%;
+    height: 100px;
+    background-color: #252B42;
+    position: relative;
+    .position{
+        position: absolute;
+        bottom: 30%;
+        left: 27%;
+       .subcenter{
+        display: flex;
+        justify-content: center;
+        .subscribe{
+            background-color: #106A9f;
+            color: white;
+            width: 1100px;
+            height: 100px;
+            .subscribeitem{
+                padding: 25px;
+                display: flex;
+                justify-content: space-between;
+                .subscribetextside{
+                    .subscribetext{
+                        font-size: 30px;
+                        display: inline;
+                        padding: 10px;
+                    }
+                }
+                .subscribebtnside{
+                    .subbtntext{
+                        width: 300px;
+                        height: 40px;
+                    }
+                    .subbtn{
+                        background-color: #D0A144;
+                        color: white;
+                        height: 45px;
+                        width: 90px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+section.three{
+    .threehead{
+        text-align: center;
+        .threemaintext{
+            font-size: 50px;
+        }
+        .threeadditionaltext{
+            font-size: 20px;
+        }
+    }
+    .threecontainer{
+        padding-top: 100px;
+        .threecontaineritem{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            .threeimageside{
+                padding-right: 100px;
+            }
+            .threetextside{
+                .threetextwithouticon{
+                    .threecontainermaintext{
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                    .threecontaineradditionaltext{
+                        font-size: 15px;
+                        text-align: left;
+                    }
+                }
+                .threetextwithicon{
+                    padding-top: 100px;
+                    .threetextup{
+                        display: flex;
+                        padding-bottom: 30px;
+                        .threeiconside{
+                            padding-right: 50px;
+                        }
+                        .threetextside{
+                            .textsidemaintext{
+                                font-size: 20px;
+                                font-weight: bold;
+                                text-align: left;
+                                margin: 0;
+                            }
+                            .textsideadditionaltext{
+                                font-size: 15px;
+                                text-align: left;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

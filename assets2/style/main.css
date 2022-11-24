@@ -1,0 +1,478 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .one {
+    background-image: none !important;
+    background-color: #F3F3F3;
+  }
+  .one nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+  }
+  .one nav .navHead {
+    font-size: 40px !important;
+    padding-top: 0 !important;
+    padding-right: 100px;
+    display: inline !important;
+  }
+  .one nav .navHead .navheadtext {
+    display: inline !important;
+  }
+  .one nav .navMain {
+    display: none !important;
+  }
+  .one nav .navEnd {
+    font-size: 30px !important;
+    padding-top: 0 !important;
+    display: flex;
+  }
+  .one nav .navEnd .respnavEndicon {
+    display: flex !important;
+    font-size: 40px !important;
+  }
+  .one nav .navEnd .respnavEndicon svg {
+    padding-right: 40px;
+  }
+  .one nav .respnavMain {
+    display: block !important;
+  }
+  .one nav .respnavMain .respnavMainelement {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .one nav .respnavMain .respnavMainelement .respnavtext {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+  .one header {
+    background-color: #F3F3F3 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    padding-top: 200px !important;
+  }
+  .one header .headerText {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .one header .headerText .headertext {
+    font-size: 50px !important;
+  }
+  .one header .headerText .additiontext {
+    font-size: 30px !important;
+    padding: 0px 130px 0px 130px;
+  }
+  .one header .headerText .headbtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .one header .headerText .headbtn .btn1space {
+    padding-bottom: 20px;
+  }
+  .one .headcontainer {
+    padding-top: 200px !important;
+    background-color: #F3F3F3 !important;
+  }
+  .one .headcontainer .headcontaineritem {
+    flex-direction: column;
+  }
+  .one .headcontainer .headcontaineritem .headcard {
+    width: cover;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .two .twomain {
+    padding-top: 1800px !important;
+  }
+  .two .twomain .twocontainer .twocontaineritem {
+    flex-wrap: wrap !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .two .twomain .twocontainer .twocontaineritem .card {
+    width: 100vw;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px !important;
+  }
+  .three .threecontainer .threecontaineritem {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .three .threecontainer .threecontaineritem .threeimageside {
+    padding-left: 50px;
+    padding-right: 50px !important;
+  }
+  .three .threecontainer .threecontaineritem .threeimageside img {
+    width: 80vw;
+  }
+  .three .threecontainer .threecontaineritem .threetextside {
+    margin: 0;
+    padding-left: 100px;
+  }
+  .three .threecontainer .threecontaineritem .threetextside .threetextwithouticon .threetextup .threetextside {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  section.aftericons .mainicons .iconitems {
+    flex-direction: column !important;
+  }
+  section.aftericons .mainicons .iconitems .mainiconsIcon {
+    padding-bottom: 40px;
+  }
+  section.aftericons .mainiconsend {
+    background-color: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  section.aftericons .mainiconsend .position {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static;
+  }
+  section.aftericons .mainiconsend .position .subcenter {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  section.aftericons .mainiconsend .position .subcenter .subscribe {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+  }
+  section.aftericons .mainiconsend .position .subcenter .subscribe .subscribeitem {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  section.aftericons .mainiconsend .position .subcenter .subscribe .subscribeitem .subscribetextside {
+    flex-direction: column !important;
+  }
+  section.aftericons .mainiconsend .position .subcenter .subscribe .subscribeitem .subscribetextside .subscribetext {
+    font-size: 20px;
+  }
+  section.aftericons .mainiconsend .position .subcenter .subscribe .subscribeitem .subscribetextside .subscribebtnside {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+  body {
+    display: none;
+  }
+}
+section.one {
+  background-image: url("../image/cover.png");
+  width: 100%;
+  height: 800px;
+}
+section.one nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row !important;
+}
+section.one nav .navHead {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+section.one nav .navEnd {
+  padding-right: 50px;
+}
+section.one nav .navEnd svg {
+  font-size: 20px;
+}
+section.one nav .navEnd .respnavEndicon {
+  display: none;
+}
+section.one nav .navMain {
+  padding-right: 700px;
+}
+section.one nav .navMain .navtext {
+  font-size: 20px;
+  padding-right: 50px;
+}
+section.one nav .respnavMain {
+  display: none;
+}
+section.one header {
+  padding-bottom: 50px;
+}
+section.one header .headerText {
+  padding-left: 300px;
+  padding-top: 100px;
+}
+section.one header .headerText .headertext {
+  font-size: 80px;
+  font-weight: bold;
+}
+section.one header .headerText .additiontext {
+  font-size: 30px;
+}
+section.one header .headerText .headbtn {
+  display: flex;
+}
+section.one header .headerText .headbtn button {
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+  width: 140px;
+  height: 40px;
+}
+section.one header .headerText .headbtn .btn1space {
+  padding-right: 30px;
+}
+section.one header .headerText .headbtn .btn1space .btn1 {
+  background-color: #784F33;
+  color: white;
+}
+section.one header .headerText .headbtn .btn2 {
+  color: #784F33;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.headcontainer {
+  padding-right: 300px;
+}
+.headcontainer .headcontaineritem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.headcontainer .headcontaineritem .headcard {
+  padding-left: 30px;
+}
+.headcontainer .headcontaineritem .headcard .headcarditem {
+  background-color: white;
+  padding: 40px;
+}
+.headcontainer .headcontaineritem .headcard .headcarditem .headicon {
+  font-size: 20px;
+}
+.headcontainer .headcontaineritem .headcard .headcarditem .headcontainertext .headcontainermaintext {
+  font-size: 30px;
+  font-weight: bold;
+}
+.headcontainer .headcontaineritem .headcard .headcarditem .headcontainertext .headcontaineradditionaltext {
+  font-size: 20px;
+}
+.headcontainer .headcontaineritem .headcard .blueback {
+  background-color: #295C7A;
+  color: white;
+}
+.headcontainer .headcontaineritem .headcard .blueback .headicon svg {
+  fill: white !important;
+}
+
+.two {
+  padding-top: 300px !important;
+  background-color: #FAFAFA;
+}
+.two .twomain .twotext {
+  text-align: center;
+}
+.two .twomain .twotext .twomaintext {
+  font-size: 40px;
+  font-weight: bold;
+}
+.two .twomain .twotext .twoadditionaltext {
+  font-size: 15px;
+}
+.two .twomain .twocontainer {
+  padding-top: 100px !important;
+}
+.two .twomain .twocontainer .twocontaineritem {
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row !important;
+}
+.two .twomain .twocontainer .twocontaineritem .card {
+  padding-left: 20px !important;
+  width: 200px !important;
+}
+.two .twomain .twocontainer .twocontaineritem .card .carditem {
+  background-color: white;
+  padding: 40px;
+}
+.two .twomain .twocontainer .twocontaineritem .card .carditem .twoicon svg {
+  font-size: 30px;
+}
+.two .twomain .twocontainer .twocontaineritem .card .carditem .twocardtext .twocardmaintext {
+  font-size: 40px;
+  font-weight: bold;
+}
+.two .twomain .twocontainer .twocontaineritem .card .carditem .twocardtext .twocardadditionaltext {
+  font-size: 15px;
+}
+
+section.three .threehead {
+  text-align: center;
+}
+section.three .threehead .threemaintext {
+  font-size: 50px;
+}
+section.three .threehead .threeadditionaltext {
+  font-size: 20px;
+}
+section.three .threecontainer {
+  padding-top: 100px;
+}
+section.three .threecontainer .threecontaineritem {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+section.three .threecontainer .threecontaineritem .threeimageside {
+  padding-right: 100px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithouticon .threecontainermaintext {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithouticon .threecontaineradditionaltext {
+  font-size: 15px;
+  text-align: left;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon {
+  padding-top: 100px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup {
+  display: flex;
+  padding-bottom: 30px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup .threeiconside {
+  padding-right: 50px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup .threetextside .textsidemaintext {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup .threetextside .textsideadditionaltext {
+  font-size: 15px;
+  text-align: left;
+  margin: 0;
+}
+
+section.aftericons .mainicons {
+  padding-top: 150px;
+}
+section.aftericons .mainicons .iconitems {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+section.aftericons .mainicons .iconitems .mainiconsIcon {
+  padding-left: 130px;
+}
+
+.mainiconsend {
+  width: 100%;
+  height: 100px;
+  background-color: #252B42;
+  position: relative;
+}
+.mainiconsend .position {
+  position: absolute;
+  bottom: 30%;
+  left: 27%;
+}
+.mainiconsend .position .subcenter {
+  display: flex;
+  justify-content: center;
+}
+.mainiconsend .position .subcenter .subscribe {
+  background-color: #106A9f;
+  color: white;
+  width: 1100px;
+  height: 100px;
+}
+.mainiconsend .position .subcenter .subscribe .subscribeitem {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainiconsend .position .subcenter .subscribe .subscribeitem .subscribetextside .subscribetext {
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+}
+.mainiconsend .position .subcenter .subscribe .subscribeitem .subscribebtnside .subbtntext {
+  width: 300px;
+  height: 40px;
+}
+.mainiconsend .position .subcenter .subscribe .subscribeitem .subscribebtnside .subbtn {
+  background-color: #D0A144;
+  color: white;
+  height: 45px;
+  width: 90px;
+  margin: 0;
+}
+
+section.three .threehead {
+  text-align: center;
+}
+section.three .threehead .threemaintext {
+  font-size: 50px;
+}
+section.three .threehead .threeadditionaltext {
+  font-size: 20px;
+}
+section.three .threecontainer {
+  padding-top: 100px;
+}
+section.three .threecontainer .threecontaineritem {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+section.three .threecontainer .threecontaineritem .threeimageside {
+  padding-right: 100px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithouticon .threecontainermaintext {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithouticon .threecontaineradditionaltext {
+  font-size: 15px;
+  text-align: left;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon {
+  padding-top: 100px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup {
+  display: flex;
+  padding-bottom: 30px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup .threeiconside {
+  padding-right: 50px;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup .threetextside .textsidemaintext {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+section.three .threecontainer .threecontaineritem .threetextside .threetextwithicon .threetextup .threetextside .textsideadditionaltext {
+  font-size: 15px;
+  text-align: left;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
