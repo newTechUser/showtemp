@@ -1,0 +1,48 @@
+.two{
+    padding-top: 300px !important; 
+    background-color: #FAFAFA;
+    .twomain{
+        .twotext{
+            text-align: center;
+            .twomaintext{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .twoadditionaltext{
+                font-size: 15px;
+            }
+        }
+        .twocontainer{
+            padding-top: 100px !important;
+            .twocontaineritem{
+                padding: 0 !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row !important;
+                .card{
+                    padding-left: 20px !important;
+                    width: 200px !important;
+                    .carditem{
+                        background-color: white;
+                        padding: 40px;
+                        .twoicon{
+                            svg{
+                                font-size: 30px;
+                            }
+                        }
+                        .twocardtext{
+                            .twocardmaintext{
+                                font-size: 40px;
+                                font-weight: bold;
+                            }
+                            .twocardadditionaltext{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
