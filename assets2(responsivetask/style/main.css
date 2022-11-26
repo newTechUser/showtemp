@@ -1,0 +1,563 @@
+@media only screen and (min-width: 1200px) {
+  .middlebtn {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .middlebtn button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  body {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    margin: 0;
+    padding: 0;
+  }
+  header section.head {
+    background-color: #28293E;
+    width: 100vw;
+    height: 400px;
+  }
+  header section.head nav {
+    padding-top: 30px;
+  }
+  header section.head nav .navcontent {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  header section.head nav .navcontent .navcontentstart {
+    display: flex;
+  }
+  header section.head nav .navcontent .navcontentstart .logoitem {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  header section.head nav .navcontent .navcontentstart svg {
+    padding-top: 0;
+  }
+  header section.head nav .navcontent .navcontentmain {
+    display: none;
+  }
+  header section.head nav .navcontent .navcontentmain .navcontentmaintext {
+    display: none;
+  }
+  header section.head nav .navcontent .navcontentend {
+    display: none;
+  }
+  header section.head nav .navcontent .menu svg {
+    display: inline;
+  }
+  header section.head .headtextcenter {
+    color: white;
+    padding-top: 100px;
+  }
+  header section.head .headtextcenter .headmaintext {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+  }
+  header section.head .headtextcenter .headaddtext {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  }
+  main {
+    background-color: #FDF0E9;
+    width: 100vw;
+  }
+  main .maincategory {
+    display: none;
+  }
+  main .maincategory .categoryitem {
+    font-size: 20px;
+    display: inline !important;
+  }
+  main .selectcategory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  main .selectcategory .category option {
+    width: 500px !important;
+  }
+  .container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .containeritem {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .container .containeritem .cards {
+    padding-bottom: 30px !important;
+  }
+  .container .containeritem .cards .card {
+    position: relative;
+  }
+  .container .containeritem .cards .card .cardimage {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .container .containeritem .cards .card .cardimage img {
+    width: 80vw !important;
+    height: 400px !important;
+  }
+  .container .containeritem .cards .card .cardeticet {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    background-color: white;
+  }
+  .container .containeritem .cards .card .cardeticet .eticet {
+    padding: 8px;
+  }
+  .container .containeritem .cards .card .cardtitle {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    color: white;
+  }
+  .middlebtn {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .middlebtn button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  section.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  section.box .contactbox {
+    width: 70vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(239, 109, 88);
+    flex-direction: column;
+    padding: 50px;
+  }
+  section.box .contactbox .textside {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+  section.box .contactbox .textside .titletext {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+  }
+  section.box .contactbox .textside .maintext {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+  }
+  section.box .contactbox .textside .boxbtn {
+    padding-top: 30px;
+    text-align: left;
+  }
+  section.box .contactbox .textside .boxbtn button {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+  }
+  section.box .contactbox .imageside img {
+    padding: 30px;
+    width: 70vw;
+  }
+  footer.end {
+    padding-top: 100px;
+    background-color: #FDF0E9;
+  }
+  footer.end .footerend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer.end .footerend .footerstart p {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+  footer.end .footerend .menu {
+    padding-bottom: 50px;
+  }
+  footer.end .footerend .menu .footmenu li {
+    padding-bottom: 10px;
+  }
+  footer.end .footerend .menu .footmenu .footmenutitle {
+    padding-bottom: 30px;
+    color: #EF6D58;
+  }
+  footer.end .footerend .service {
+    padding-bottom: 50px;
+  }
+  footer.end .footerend .service .footservice .footservicetittle {
+    padding-bottom: 30px;
+    color: #EF6D58;
+  }
+  footer.end .footerend .service .footservice li {
+    padding-bottom: 10px;
+  }
+  footer.end .footerend .icons {
+    display: flex;
+    padding-bottom: 50px;
+  }
+  footer.end .footerend .icons .iconpadding {
+    padding-left: 10px;
+  }
+  footer.end .footerend .icons .iconpadding .icon {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #EF6D58;
+  }
+  footer.end .footerend .icons .iconpadding .icon svg {
+    padding: 7px;
+  }
+  .pageend {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .pageend .pageendstart p {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .pageend .pageendstart p span {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .pageend .pageendend {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .pageend .pageendend p {
+    font-size: 20px;
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  header {
+    margin: 0;
+    padding: 0;
+  }
+  header section.head {
+    background-color: #28293E;
+    width: 100vw;
+    height: 400px;
+  }
+  header section.head nav {
+    padding-top: 30px;
+  }
+  header section.head nav .navcontent {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  header section.head nav .navcontent .navcontentstart {
+    display: flex;
+  }
+  header section.head nav .navcontent .navcontentstart .logoitem {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  header section.head nav .navcontent .navcontentstart svg {
+    padding-top: 0;
+  }
+  header section.head nav .navcontent .navcontentmain {
+    display: flex;
+  }
+  header section.head nav .navcontent .navcontentmain .navcontentmaintext {
+    font-size: 20px;
+    padding-right: 90px;
+  }
+  header section.head nav .navcontent .navcontentend .navcontentbtn {
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    background-color: #28293E;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  header section.head nav .navcontent .menu svg {
+    display: none;
+  }
+  header section.head .headtextcenter {
+    color: white;
+    padding-top: 100px;
+  }
+  header section.head .headtextcenter .headmaintext {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+  }
+  header section.head .headtextcenter .headaddtext {
+    padding-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+  }
+  main {
+    background-color: #FDF0E9;
+    width: 100vw;
+  }
+  main .maincategory {
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    display: flex !important;
+    justify-content: space-between;
+  }
+  main .maincategory .categoryitem {
+    font-size: 20px;
+    display: inline !important;
+  }
+  main .selectcategory .category {
+    display: none !important;
+  }
+  main .selectcategory .category option {
+    display: none !important;
+  }
+  .container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .containeritem {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .container .containeritem .cards {
+    padding-bottom: 30px !important;
+  }
+  .container .containeritem .cards .card {
+    position: relative;
+  }
+  .container .containeritem .cards .card .cardimage {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  .container .containeritem .cards .card .cardimage img {
+    width: 350px !important;
+    height: 400px !important;
+  }
+  .container .containeritem .cards .card .cardeticet {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    background-color: white;
+  }
+  .container .containeritem .cards .card .cardeticet .eticet {
+    padding: 8px;
+  }
+  .container .containeritem .cards .card .cardtitle {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    color: white;
+  }
+  .middlebtn {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .middlebtn button {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .box {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .contactbox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(239, 109, 88);
+  }
+  .box .contactbox .textside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .contactbox .textside .titletext {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+  }
+  .box .contactbox .textside .maintext {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .box .contactbox .textside .boxbtn {
+    padding-top: 30px;
+    text-align: left;
+  }
+  .box .contactbox .textside .boxbtn button {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .box .contactbox .imageside img {
+    padding: 30px;
+  }
+  footer.end {
+    padding-top: 100px;
+    background-color: #FDF0E9;
+  }
+  footer.end .footerend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  }
+  footer.end .footerend .footerstart p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  footer.end .footerend .menu .footmenu li {
+    padding-bottom: 10px;
+  }
+  footer.end .footerend .menu .footmenu .footmenutitle {
+    padding-bottom: 30px;
+    color: #EF6D58;
+  }
+  footer.end .footerend .service .footservice .footservicetittle {
+    padding-bottom: 30px;
+    color: #EF6D58;
+  }
+  footer.end .footerend .service .footservice li {
+    padding-bottom: 10px;
+  }
+  footer.end .footerend .icons {
+    display: flex;
+  }
+  footer.end .footerend .icons .iconpadding {
+    padding-left: 10px;
+  }
+  footer.end .footerend .icons .iconpadding .icon {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #EF6D58;
+  }
+  footer.end .footerend .icons .iconpadding .icon svg {
+    padding: 7px;
+  }
+  footer.end .pageend {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer.end .pageend .pageendstart p {
+    font-size: 15px;
+    padding-left: 50px;
+  }
+  footer.end .pageend .pageendend {
+    display: flex;
+    flex-direction: row;
+  }
+  footer.end .pageend .pageendend p {
+    font-size: 15px;
+    display: inline;
+    padding-right: 50px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,282 @@
+$bgcolor:#28293E;
+$textcolor:white;
+$maincolor:#FDF0E9;
+$boxcolor:rgb(239,109,88);
+$menucolor:#EF6D58;
+
+@media only screen and (min-width:1200px){
+    header{
+        margin: 0;
+        padding: 0;
+        section.head{
+            background-color: $bgcolor;
+            width: 100vw;
+            height: 400px;
+            nav{
+                padding-top: 30px;
+                .navcontent{
+                    color: $textcolor;
+                    display: flex;
+                    justify-content: space-around;
+                    .navcontentstart{
+                        display: flex;
+                        .logoitem{
+                            font-size: 30px;
+                            font-weight: bold;
+                        }
+                        svg{
+                            padding-top: 0;
+                        }
+                    }
+                    .navcontentmain{
+                        display: flex;
+                        .navcontentmaintext{
+                            font-size: 20px;
+                            padding-right: 90px;
+                        }
+                    }
+                    .navcontentend{
+                        .navcontentbtn{
+                            border-radius: 5px;
+                            border: 1px solid $textcolor;
+                            padding: 10px;
+                            color: $textcolor;
+                            background-color: $bgcolor;
+                            font-weight: bold;
+                            cursor: pointer;
+                        }
+                    }
+                    .menu{
+                        svg{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .headtextcenter{
+                color: $textcolor;
+                padding-top: 100px;
+                .headmaintext{
+                    font-size: 70px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .headaddtext{
+                    padding-top: 20px;
+                    font-size: 15px;
+                    font-style: italic;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+    main{
+        background-color: $maincolor;
+        width: 100vw;
+        // height: 500px;
+        .maincategory{
+            padding-left: 400px;
+            padding-right: 400px;
+            padding-top: 50px;
+            display: flex !important;
+            justify-content: space-between;
+            .categoryitem{
+                font-size: 20px;
+                display: inline !important;
+            }
+        }
+        .selectcategory{
+            .category{
+                display: none !important;
+                option{
+                    display: none !important;
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    .container{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .containeritem{
+            display: flex !important;
+            flex-direction: row !important;
+            .cards{
+                padding-bottom: 30px !important;
+                .card{
+                    position: relative;
+                    .cardimage{
+                        padding-left: 30px;
+                        padding-top: 20px;
+                        img{
+                            width: 350px !important;
+                            height: 400px !important;
+                        }
+                    }
+                    .cardeticet{
+                        border-radius: 10px;
+                        position: absolute;
+                        bottom: 100px;
+                        left: 80px;
+                        background-color: $textcolor;
+                        .eticet{
+                            padding: 8px;
+                        }
+    
+                    }
+                    .cardtitle{
+                        font-size: 30px;
+                        font-weight: bold;
+                        position: absolute;
+                        bottom: 50px;
+                        left: 80px;
+                        color: $textcolor;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .middlebtn{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        button{
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+
+    .box{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contactbox{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            background-color: $boxcolor;
+            .textside{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .titletext{
+                    color: $textcolor;
+                    font-weight: bold;
+                    font-size: 50px;
+                    text-align: left;
+                }
+                .maintext{
+                    font-size: 20px;
+                    color: $textcolor;
+                    text-align: left;
+                    padding-top: 20px;
+                    padding-left: 50px;
+                }
+                .boxbtn{
+                    padding-top: 30px;
+                    text-align: left;
+                    button{
+                        font-weight: bold;
+                        font-size: 15px;
+                        padding: 10px;
+                    }
+                }
+            }
+            .imageside{
+                img{
+                    padding: 30px;
+                }
+            }
+        }
+    }
+
+    footer.end{
+        padding-top: 100px;
+        background-color: $maincolor;
+        .footerend{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-bottom: 100px;
+            .footerstart{
+                p{
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            }
+            .menu{
+                .footmenu{
+                    li{
+                        padding-bottom: 10px;
+                    }
+                    .footmenutitle{
+                        padding-bottom: 30px;
+                        color: $menucolor;
+                    }
+                }
+            }
+            .service{
+                .footservice{
+                    .footservicetittle{
+                        padding-bottom: 30px;
+                        color: $menucolor;
+                    }
+                    li{
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                .iconpadding{
+                    padding-left: 10px;
+                    .icon{
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+                        background-color: $menucolor;
+                        svg{
+                            padding: 7px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pageend{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            .pageendstart{
+                p{
+                    font-size: 15px;
+                    padding-left: 50px;
+                }
+            }
+            .pageendend{
+                display: flex;
+                flex-direction: row;
+                p{
+                    font-size: 15px;
+                    display: inline;
+                    padding-right: 50px;
+                }
+            }
+        }
+    }
+}
+
