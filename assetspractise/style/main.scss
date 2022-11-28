@@ -1,0 +1,425 @@
+@import "abstracts/resp";
+@import "abstracts/responsiveformobile";
+
+@media only screen and(min-width:990px){
+    $color:#252B42;
+    $textcolor:#2091F9;
+    .head{
+        background-image: url("../image/Rectangle 9.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            .navtextside{
+                .navelement{
+                    display: flex;
+                    .navelementitem{
+                        font-size: 15px;
+                    }
+                    .navelementcenter{
+                        font-size: 25px;
+                        font-weight: bold;
+                        padding-left: 40px;
+                    }
+                    li{
+                        list-style: none;
+                        color: white;
+                        padding-left: 40px;
+                    }
+                }
+            }
+            .naviconside{
+                display: flex;
+                padding-right: 150px;
+                .navicon{
+                    padding-right: 30px;
+                }
+                .burgericon{
+                    display: none;
+                }
+            }
+        }
+    
+        .centeraltext{
+            color: white;
+            text-align: center;
+            padding-top: 130px;
+            .canteralheadtext{
+                font-weight: bold;
+                font-size: 60px;
+            }
+            .centeralmaintext{
+                font-size: 30px;
+            }
+            .centeralbtnside{
+                button{
+                    background-color: #2091F9;
+                    padding: 5px;
+                    border-radius: 15px;
+                    color: white;
+                    width: 150px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+    
+    section.features{
+        padding-top: 100px;
+        .featureonlytext{
+            text-align: center;
+            .featureonlytext{
+                p{
+                    font-size: 50px;
+                }
+            }
+            .featuresadditionaltext{
+                p{
+                    font-size: 40px;
+                }
+            }
+        }
+        .featureonlyimagecomp{
+            img{
+                display: none;
+            }
+        }
+        .featurestextwithicon{
+            display: flex;
+            align-items:center;
+            justify-content: space-evenly;
+            padding-top: 50px;
+            .card{
+                .cardiconside{
+                    text-align: center;
+                }
+                .cardtitleside{
+                    p{
+                        font-weight: bold;
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                }
+                .cardaboutside{
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }    
+    }
+    .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100vh; 
+            height:658px ;
+            border-radius:50px ;
+        }
+    }
+    
+    section.box{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        .boxitem{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          .boxtextside{
+            .boxheadtext{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .boxmaintext{
+                font-size: 30px;
+            }
+            .boxbtn{
+                padding-top: 30px;
+                button{
+                    background-color: #2091F9;
+                    color: white;
+                    font-size: 20px;
+                    padding: 10px;
+                    border-radius: 15px;
+                }
+            }
+          }
+          .boximageside{
+            img{
+                height: 300px;
+                width: 481px;
+                left: 70px;
+            }
+          }  
+        }
+    }
+
+    .fingertips{
+        .box{
+            display: flex;
+            align-items: center;
+            .imageside{
+                padding-left: 200px;
+                img{
+                    width: 40vw;
+                }
+            }
+            .titletextv{
+                display: none;
+            }
+            .maintextv{
+                display: none;
+            }
+            .textside{
+                padding-left: 280px;
+                .titletext{
+                    margin: 0;
+                    padding: 0;
+                    display: inline;
+                    p{
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .maintext{
+                    p{
+                        font-size: 40px;
+                        margin: 0;
+                        padding-top: 10px;
+                    }
+                }
+                .additionaltext{
+                    .boldtext{
+                        font-size: 20px;
+                        font-weight: bold;
+                        padding-top: 10px;
+                    }
+                    .simpletext{
+                        font-size: 20px;
+                        margin: 0;
+                        padding-bottom: 30px;
+                    }
+                }
+                .boxbtn{
+                    .boxinput{
+                        input{
+                            padding: 10px;
+                            width: 200px;
+                            height: 30px;
+                        }
+                    }
+                    .boxbutton{
+                        padding-left: 20px;
+                        display: inline;
+                        button{
+                            border-radius: 10px;
+                            padding: 15px;
+                            height: 55px;
+                            width: 150px;
+                            background-color: #2091F9;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.container{
+        background-color: $color;
+        width: 100vw;
+        height: 1000px;
+        .containertext{
+            text-align: center;
+            padding-top: 100px;
+            color: white;
+            .containrmaintext{
+                font-size: 40px
+            }
+            .containeradditionaltext{
+                font-size: 30px;
+            }
+        }
+        .cards{
+            .cardsitem{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5%;
+                .card{
+                    border-radius: 10px;
+                    background-color: white;
+                    color: black;
+                    width: 300px;
+                    height: 600px;
+                    .cardpadding{
+                        padding: 20px;
+                        text-align: center;
+                        .cardtitle{
+                            font-weight: bold;
+                            font-size: 30px;
+                            padding: 0;
+                            margin: 0;
+                        }
+                        .cardabout{
+                            font-size: 15px;
+                        }
+                        .cardpricing{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0;
+                            padding: 0;
+                            .cardprice{
+                                font-size: 50px;
+                                font-weight: bold;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            .pricemonth{
+                                display: flex;
+                                flex-direction: column;
+                                margin: 0;
+                                padding: 0;
+                                .valyuta{
+                                    font-size: 20px;
+                                    display: inline;
+                                }
+                                .month{
+                                    font-size: 10px;
+                                    display: inline;
+                                }
+                            }
+
+                        }
+                        .cardbtn{
+                            padding-top: 30px;
+                            button{
+                                padding: 10px;
+                                border-radius: 10px;
+                                font-size: 14px;
+                                background-color: #2091F9;
+                                color: white;
+                            }
+                            .cardblueback{
+                                background-color: white;
+                                color: #2091F9;
+                            }
+                        }
+                    }
+                }
+                .cardoversize{
+                    background-color: $textcolor;
+                    height: 650px;
+                    .cardpaddingoversize{
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .contact{
+        .contactmap{
+            .contacthead{
+                text-align: center;
+                .maintext{
+                    p{
+                        font-size: 40px;
+                        font-weight: bold;
+                    }
+                }
+                .additionaltext{
+                    p{
+                        font-size: 30px;
+                    }
+                }
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .btnside{
+                    background-color: rgb(255, 250, 250);
+                    width: 400px;
+                    height: 600px;
+                    .btnhead{
+                        padding-top: 100px;
+                        p{
+                            font-weight: bold;
+                            font-size: 30px;
+                            text-align: center;
+                        }
+                    }
+                    input{
+                        display: block;
+                        border-radius: 15px;
+                        width: 300px;
+                        height: 20px;
+                        padding:10px;    
+                    }
+                    .msg{
+                        width: 300px;
+                        height: 100px;
+                    }
+                    .btn{
+                        padding-top: 50px;
+                        button{
+                            background-color: #2091F9;
+                            color: white;
+                            padding: 10px;
+                            border-radius: 10px;
+                            width: 100px;
+                            }
+                        }
+                    
+                }
+                .mapside{
+                    display: flex;
+                    flex-direction: column;
+                    .iconupmap{
+                        display: flex;
+                        flex-direction: row;
+                        .iconside{
+                            padding-right: 50px;                            
+                            .icon{
+                                text-align: center;
+                            }
+                            .text{
+    
+                            }
+                        }
+                    }
+                    .map{
+                        img{
+                            border-radius: 10px;
+                        }
+                    }
+                    .sosialicons{
+                        display: flex;
+                        justify-content: space-around;
+                        .icontwit{
+
+                        }
+                        .iconface{
+
+                        }
+                        .iconlink{
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,365 @@
+$color:#252B42;
+$textcolor:#2091F9;
+
+@media only screen and(max-width:600px){
+    .head{
+        background-image: url("../image/Rectangle 9.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            .navtextside{
+                .navelement{
+                    .navelementitem{
+                        font-size: 15px;
+                        display: none !important;
+                    }
+                    .navelementcenter{
+                        font-size: 25px;
+                        font-weight: bold;
+                        padding-left: 10px;
+                    }
+                    li{
+                        list-style: none;
+                        color: white;
+                        padding-left: 40px;
+                    }
+                }
+            }
+            .naviconside{
+                display: flex;
+                .navicon{
+                    display: none;
+                    padding-right: 30px;
+                }
+                .burgericon{
+                    display: inline !important;
+                }
+            }
+        }
+    
+        .centeraltext{
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            .canteralheadtext{
+                font-weight: bold;
+                font-size: 60px;
+            }
+            .centeralmaintext{
+                font-size: 30px;
+            }
+            .centeralbtnside{
+                button{
+                    background-color: #2091F9;
+                    padding: 5px;
+                    border-radius: 15px;
+                    color: white;
+                    width: 150px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    section.features{
+        padding-top: 100px;
+        .featureonlytext{
+            text-align: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            .featureonlytext{
+                p{
+                    font-size: 50px;
+                }
+            }
+            .featuresadditionaltext{
+                p{
+                    font-size: 40px;
+                }
+            }
+        }
+        .featureonlyimagecomp{
+            img{
+                width: 100vw;
+                display: inline !important;
+            }
+        }
+        .featurestextwithicon{
+            display: flex;
+            align-items:center;
+            justify-content: space-evenly;
+            flex-direction: column !important;
+            padding-top: 50px;
+            .card{
+                .cardiconside{
+                    text-align: center;
+                }
+                .cardtitleside{
+                    p{
+                        font-weight: bold;
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                }
+                .cardaboutside{
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .video{
+        text-align: center;
+        display: none !important;
+        img{
+            width: 100vw !important; 
+            height:100vh ;
+            border-radius:40px ;
+        }
+    }
+    section.box{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        .boxitem{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column !important;
+          .boxtextside{
+            .boxheadtext{
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .boxmaintext{
+                font-size: 30px;
+                text-align: center;
+            }
+            .boxbtn{
+                padding-top: 30px;
+                text-align: center;
+                button{
+                    background-color: #2091F9;
+                    color: white;
+                    font-size: 20px;
+                    padding: 10px;
+                    border-radius: 15px;
+                }
+            }
+          }
+          .boximageside{
+            padding-top: 30px;
+            img{
+                height: 200px;
+                width: 80vw;
+                text-align: center;
+                left: 70px;
+            }
+          }  
+        }
+    }
+    .fingertips{
+        padding-bottom: 100px;
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .imageside{
+                padding-top: 30px;
+                img{
+                    width: 80vw;
+                }
+            }
+            .titletextv{
+                margin: 0;
+                padding: 0;
+                p{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+            .maintextv{
+                p{
+                    font-size: 40px;
+                    margin: 0;
+                    padding-top: 10px;
+                }
+            }
+            .textside{
+                text-align: center;
+                .titletext{
+                    margin: 0;
+                    padding: 0;
+                    display: none;
+                    p{
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .maintext{
+                    p{
+                        font-size: 40px;
+                        margin: 0;
+                        padding-top: 10px;
+                        display: none;
+                    }
+                }
+
+                
+
+                .additionaltext{
+                    .boldtext{
+                        font-size: 20px;
+                        font-weight: bold;
+                        padding-top: 10px;
+                    }
+                    .simpletext{
+                        font-size: 20px;
+                        margin: 0;
+                        padding-bottom: 30px;
+                    }
+                }
+                .boxbtn{
+                    display: flex;
+                    flex-direction: column !important;
+                    .boxinput{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        input{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 10px;
+                            width: 55vw;
+                            border-radius: 10px;
+                            height: 30px;
+                            background-color: #f4f4f4;
+                        }
+                    }
+                    .boxbutton{
+                        display: inline;
+                        padding-top: 20px;
+                        button{
+                            border-radius: 10px;
+                            padding: 15px;
+                            height: 55px;
+                            width: 60vw;
+                            background-color: #2091F9;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section.container{
+        background-color: $color;
+        width: 100vw;
+        height: 100%;
+        .containertext{
+            text-align: center;
+            padding-top: 100px;
+            color: white;
+            .containrmaintext{
+                font-size: 40px
+            }
+            .containeradditionaltext{
+                font-size: 30px;
+            }
+        }
+        .cards{
+            .cardsitem{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+                padding-bottom: 100px;
+                .card{
+                    border-radius: 10px;
+                    background-color: white;
+                    color: black;
+                    width: 300px;
+                    height: 600px;
+                    .cardpadding{
+                        padding: 20px;
+                        text-align: center;
+                        .cardtitle{
+                            font-weight: bold;
+                            font-size: 30px;
+                            padding: 0;
+                            margin: 0;
+                        }
+                        .cardabout{
+                            font-size: 15px;
+                        }
+                        .cardpricing{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0;
+                            padding: 0;
+                            .cardprice{
+                                font-size: 50px;
+                                font-weight: bold;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            .pricemonth{
+                                display: flex;
+                                flex-direction: column;
+                                margin: 0;
+                                padding: 0;
+                                .valyuta{
+                                    font-size: 20px;
+                                    display: inline;
+                                }
+                                .month{
+                                    font-size: 10px;
+                                    display: inline;
+                                }
+                            }
+
+                        }
+                        .cardbtn{
+                            padding-top: 30px;
+                            button{
+                                padding: 10px;
+                                border-radius: 10px;
+                                font-size: 14px;
+                                background-color: #2091F9;
+                                color: white;
+                            }
+                            .cardblueback{
+                                background-color: white;
+                                color: #2091F9;
+                            }
+                        }
+                    }
+                }
+                .cardoversize{
+                    background-color: $textcolor;
+                    height: 650px;
+                    .cardpaddingoversize{
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

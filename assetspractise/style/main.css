@@ -1,0 +1,694 @@
+@media only screen and (min-width: 600px) and (max-width: 990px) {
+  body {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .head {
+    background-image: url("../image/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .head .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  .head .navbar .navtextside .navelement .navelementitem {
+    font-size: 15px;
+    display: none !important;
+  }
+  .head .navbar .navtextside .navelement .navelementcenter {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .head .navbar .navtextside .navelement li {
+    list-style: none;
+    color: white;
+    padding-left: 40px;
+  }
+  .head .navbar .naviconside {
+    display: flex;
+  }
+  .head .navbar .naviconside .navicon {
+    display: none;
+    padding-right: 30px;
+  }
+  .head .navbar .naviconside .burgericon {
+    display: inline !important;
+  }
+  .head .centeraltext {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .head .centeraltext .canteralheadtext {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .head .centeraltext .centeralmaintext {
+    font-size: 30px;
+  }
+  .head .centeraltext .centeralbtnside button {
+    background-color: #2091F9;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+    height: 40px;
+  }
+  section.features {
+    padding-top: 100px;
+  }
+  section.features .featureonlytext {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  section.features .featureonlytext .featureonlytext p {
+    font-size: 50px;
+  }
+  section.features .featureonlytext .featuresadditionaltext p {
+    font-size: 40px;
+  }
+  section.features .featureonlyimagecomp img {
+    width: 100vw;
+    display: inline !important;
+  }
+  section.features .featurestextwithicon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column !important;
+    padding-top: 50px;
+  }
+  section.features .featurestextwithicon .card .cardiconside {
+    text-align: center;
+  }
+  section.features .featurestextwithicon .card .cardtitleside p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  section.features .featurestextwithicon .card .cardaboutside {
+    font-size: 20px;
+    text-align: center;
+  }
+  .video {
+    text-align: center;
+    display: none !important;
+  }
+  .video img {
+    width: 100vw !important;
+    height: 100vh;
+    border-radius: 40px;
+  }
+  section.box {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  section.box .boxitem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column !important;
+  }
+  section.box .boxitem .boxtextside .boxheadtext {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  section.box .boxitem .boxtextside .boxmaintext {
+    font-size: 30px;
+    text-align: center;
+  }
+  section.box .boxitem .boxtextside .boxbtn {
+    padding-top: 30px;
+    text-align: center;
+  }
+  section.box .boxitem .boxtextside .boxbtn button {
+    background-color: #2091F9;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  section.box .boxitem .boximageside {
+    padding-top: 30px;
+  }
+  section.box .boxitem .boximageside img {
+    height: 200px;
+    width: 80vw;
+    text-align: center;
+    left: 70px;
+  }
+  .fingertips {
+    padding-bottom: 100px;
+  }
+  .fingertips .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fingertips .box .imageside {
+    padding-top: 30px;
+  }
+  .fingertips .box .imageside img {
+    width: 80vw;
+  }
+  .fingertips .box .titletextv {
+    margin: 0;
+    padding: 0;
+  }
+  .fingertips .box .titletextv p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  .fingertips .box .maintextv p {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .fingertips .box .textside {
+    text-align: center;
+  }
+  .fingertips .box .textside .titletext {
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  .fingertips .box .textside .titletext p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  .fingertips .box .textside .maintext p {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+    display: none;
+  }
+  .fingertips .box .textside .additionaltext .boldtext {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .fingertips .box .textside .additionaltext .simpletext {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .fingertips .box .textside .boxbtn {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .fingertips .box .textside .boxbtn .boxinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fingertips .box .textside .boxbtn .boxinput input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 55vw;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #f4f4f4;
+  }
+  .fingertips .box .textside .boxbtn .boxbutton {
+    display: inline;
+    padding-top: 20px;
+  }
+  .fingertips .box .textside .boxbtn .boxbutton button {
+    border-radius: 10px;
+    padding: 15px;
+    height: 55px;
+    width: 60vw;
+    background-color: #2091F9;
+    color: white;
+  }
+  section.container {
+    background-color: #252B42;
+    width: 100vw;
+    height: 100%;
+  }
+  section.container .containertext {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+  }
+  section.container .containertext .containrmaintext {
+    font-size: 40px;
+  }
+  section.container .containertext .containeradditionaltext {
+    font-size: 30px;
+  }
+  section.container .cards .cardsitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+  section.container .cards .cardsitem .card {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 600px;
+  }
+  section.container .cards .cardsitem .card .cardpadding {
+    padding: 20px;
+    text-align: center;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardtitle {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardabout {
+    font-size: 15px;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .cardprice {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .pricemonth {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .pricemonth .valyuta {
+    font-size: 20px;
+    display: inline;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .pricemonth .month {
+    font-size: 10px;
+    display: inline;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardbtn {
+    padding-top: 30px;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardbtn button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #2091F9;
+    color: white;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardbtn .cardblueback {
+    background-color: white;
+    color: #2091F9;
+  }
+  section.container .cards .cardsitem .cardoversize {
+    background-color: #2091F9;
+    height: 650px;
+  }
+  section.container .cards .cardsitem .cardoversize .cardpaddingoversize {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .head {
+    background-image: url("../image/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .head .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  .head .navbar .navtextside .navelement {
+    display: flex;
+  }
+  .head .navbar .navtextside .navelement .navelementitem {
+    font-size: 15px;
+  }
+  .head .navbar .navtextside .navelement .navelementcenter {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  .head .navbar .navtextside .navelement li {
+    list-style: none;
+    color: white;
+    padding-left: 40px;
+  }
+  .head .navbar .naviconside {
+    display: flex;
+    padding-right: 150px;
+  }
+  .head .navbar .naviconside .navicon {
+    padding-right: 30px;
+  }
+  .head .navbar .naviconside .burgericon {
+    display: none;
+  }
+  .head .centeraltext {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+  }
+  .head .centeraltext .canteralheadtext {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .head .centeraltext .centeralmaintext {
+    font-size: 30px;
+  }
+  .head .centeraltext .centeralbtnside button {
+    background-color: #2091F9;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+    height: 40px;
+  }
+  section.features {
+    padding-top: 100px;
+  }
+  section.features .featureonlytext {
+    text-align: center;
+  }
+  section.features .featureonlytext .featureonlytext p {
+    font-size: 50px;
+  }
+  section.features .featureonlytext .featuresadditionaltext p {
+    font-size: 40px;
+  }
+  section.features .featureonlyimagecomp img {
+    display: none;
+  }
+  section.features .featurestextwithicon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+  section.features .featurestextwithicon .card .cardiconside {
+    text-align: center;
+  }
+  section.features .featurestextwithicon .card .cardtitleside p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  section.features .featurestextwithicon .card .cardaboutside {
+    font-size: 20px;
+    text-align: center;
+  }
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video img {
+    width: 100vh;
+    height: 658px;
+    border-radius: 50px;
+  }
+  section.box {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  section.box .boxitem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  section.box .boxitem .boxtextside .boxheadtext {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  section.box .boxitem .boxtextside .boxmaintext {
+    font-size: 30px;
+  }
+  section.box .boxitem .boxtextside .boxbtn {
+    padding-top: 30px;
+  }
+  section.box .boxitem .boxtextside .boxbtn button {
+    background-color: #2091F9;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  section.box .boxitem .boximageside img {
+    height: 300px;
+    width: 481px;
+    left: 70px;
+  }
+  .fingertips .box {
+    display: flex;
+    align-items: center;
+  }
+  .fingertips .box .imageside {
+    padding-left: 200px;
+  }
+  .fingertips .box .imageside img {
+    width: 40vw;
+  }
+  .fingertips .box .titletextv {
+    display: none;
+  }
+  .fingertips .box .maintextv {
+    display: none;
+  }
+  .fingertips .box .textside {
+    padding-left: 280px;
+  }
+  .fingertips .box .textside .titletext {
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  .fingertips .box .textside .titletext p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  .fingertips .box .textside .maintext p {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .fingertips .box .textside .additionaltext .boldtext {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .fingertips .box .textside .additionaltext .simpletext {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .fingertips .box .textside .boxbtn .boxinput input {
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  .fingertips .box .textside .boxbtn .boxbutton {
+    padding-left: 20px;
+    display: inline;
+  }
+  .fingertips .box .textside .boxbtn .boxbutton button {
+    border-radius: 10px;
+    padding: 15px;
+    height: 55px;
+    width: 150px;
+    background-color: #2091F9;
+    color: white;
+  }
+  section.container {
+    background-color: #252B42;
+    width: 100vw;
+    height: 1000px;
+  }
+  section.container .containertext {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+  }
+  section.container .containertext .containrmaintext {
+    font-size: 40px;
+  }
+  section.container .containertext .containeradditionaltext {
+    font-size: 30px;
+  }
+  section.container .cards .cardsitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+  section.container .cards .cardsitem .card {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 600px;
+  }
+  section.container .cards .cardsitem .card .cardpadding {
+    padding: 20px;
+    text-align: center;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardtitle {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardabout {
+    font-size: 15px;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .cardprice {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .pricemonth {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .pricemonth .valyuta {
+    font-size: 20px;
+    display: inline;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardpricing .pricemonth .month {
+    font-size: 10px;
+    display: inline;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardbtn {
+    padding-top: 30px;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardbtn button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #2091F9;
+    color: white;
+  }
+  section.container .cards .cardsitem .card .cardpadding .cardbtn .cardblueback {
+    background-color: white;
+    color: #2091F9;
+  }
+  section.container .cards .cardsitem .cardoversize {
+    background-color: #2091F9;
+    height: 650px;
+  }
+  section.container .cards .cardsitem .cardoversize .cardpaddingoversize {
+    padding: 20px;
+  }
+  .contact .contactmap .contacthead {
+    text-align: center;
+  }
+  .contact .contactmap .contacthead .maintext p {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .contact .contactmap .contacthead .additionaltext p {
+    font-size: 30px;
+  }
+  .contact .contactmap .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .contact .contactmap .container .btnside {
+    background-color: rgb(255, 250, 250);
+    width: 400px;
+    height: 600px;
+  }
+  .contact .contactmap .container .btnside .btnhead {
+    padding-top: 100px;
+  }
+  .contact .contactmap .container .btnside .btnhead p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact .contactmap .container .btnside input {
+    display: block;
+    border-radius: 15px;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+  }
+  .contact .contactmap .container .btnside .msg {
+    width: 300px;
+    height: 100px;
+  }
+  .contact .contactmap .container .btnside .btn {
+    padding-top: 50px;
+  }
+  .contact .contactmap .container .btnside .btn button {
+    background-color: #2091F9;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+  }
+  .contact .contactmap .container .mapside {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contactmap .container .mapside .iconupmap {
+    display: flex;
+    flex-direction: row;
+  }
+  .contact .contactmap .container .mapside .iconupmap .iconside {
+    padding-right: 50px;
+  }
+  .contact .contactmap .container .mapside .iconupmap .iconside .icon {
+    text-align: center;
+  }
+  .contact .contactmap .container .mapside .map img {
+    border-radius: 10px;
+  }
+  .contact .contactmap .container .mapside .sosialicons {
+    display: flex;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=main.css.map */
